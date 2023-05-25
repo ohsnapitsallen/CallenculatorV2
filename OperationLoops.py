@@ -32,7 +32,7 @@ class loop:
                     break
 
             else:
-                print("Invalid choice. Please enter a number from 1 to 6.")
+                print("Numbers ain't that hard to learn buddy. (Enter only numbers from 1 to 4)")
 
                 
 #Create another class to ask the user if they want to try the calculator again.
