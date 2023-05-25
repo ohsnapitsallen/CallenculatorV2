@@ -37,5 +37,18 @@ class Callenculator:
         except ValueError:
             print("Error: Looks like someone doesn't know their ABCs and 123s (Please enter numbers only).")
 
-#Create a function for division            
-#Create a variable for the class 
+    #Create a function for division
+    def divide(self):
+        try:
+            self.num1 = float(input("Enter the first number: "))
+            self.num2 = float(input("Enter the second number: "))
+            self.result = self.num1 * self.num2
+            print("Quotient:", self.result)
+        except ValueError:
+            print("Error: Looks like someone doesn't know their ABCs and 123s (Please enter numbers only).")
+        except ZeroDivisionError:
+            print("Error: Have you tried dividing 0 cookies to your 0 friends (You cannot devide by zero)")
+            
+      
+#Create a variable for the class
+callenculator = Callenculator() 
