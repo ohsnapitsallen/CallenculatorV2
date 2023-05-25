@@ -7,8 +7,8 @@ This is yet another calculator program. A much more organized program using obje
 - Division
 
 The user now only needs to type the corresponding number in order to use that calculator. The calculator is divided into 3 files:
-- 1. For the main calculator itself
-- 2. For looping the program
-- 3. For launching the program
+1. For the main calculator itself
+2. For looping the program
+3. For launching the program
 
 With that said, I hope you like my program.
