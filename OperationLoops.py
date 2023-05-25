@@ -34,4 +34,17 @@ class loop:
             else:
                 print("Invalid choice. Please enter a number from 1 to 6.")
 
+                
 #Create another class to ask the user if they want to try the calculator again.
+class question:
+    def __init__(self):
+        self.response = ' '
+        while self.response != "n":
+            self.response = input("Do you want to try the calculator again? (Answer with 'y' or 'n' only.): ")
+
+            if self.response == "y":
+                loop()
+            elif self.response == "n":
+                break
+            else:
+                print("Hey! that's not 'y' nor 'n'. (Please Try Again)")
